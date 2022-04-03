@@ -372,8 +372,9 @@ a{
 }
 
 .logout{
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-right: 20px;
+    color: #000;
 }
 
 /*======================================
@@ -844,6 +845,9 @@ a{
 #container.dark-theme .navbar-user__container i{
     color:#fff;
 }
+#container.dark-theme .logout {
+    color: #fff;
+}
 #container.dark-theme .play-song{
     background: var(--third-color);
 }
@@ -879,3 +883,5 @@ a{
 #container.dark-theme .ball{
     background-color: #000;
 }
+
+
